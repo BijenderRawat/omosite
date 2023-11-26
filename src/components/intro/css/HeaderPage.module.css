@@ -1,0 +1,15 @@
+.mainsection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainsection main {
+    padding: 5rem;
+    min-width: 20%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}

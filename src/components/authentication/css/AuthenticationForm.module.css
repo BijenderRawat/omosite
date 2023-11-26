@@ -1,0 +1,36 @@
+.formcontainer {
+    width: 100%;
+    min-height: 20rem;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.8);
+}
+
+.form {
+    margin: 3rem auto;
+    min-width: 20rem;
+    max-width: 40rem;
+}
+
+.form h1 {
+    color: orange;
+}
+
+.form label,
+.form input,
+.form textarea {
+    display: block;
+    width: 100%;
+}
+
+.form input,
+.form textarea {
+    font: inherit;
+    padding: 0.25rem;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}

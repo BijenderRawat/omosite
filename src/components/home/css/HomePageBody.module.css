@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    justify-content: center;
+    height: 50rem;
+    background-color: rgb(214, 211, 211)
+}
+
+.header {
+    max-width: 60rem;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* temporary color added here */
+    background-color: grey;
+}
+
+.list {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}

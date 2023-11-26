@@ -1,0 +1,12 @@
+.authentication {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftseperator {
+    min-width: 20%;
+}
+
+.rightseperator {
+    min-width: 20%;
+}
