@@ -1,22 +1,26 @@
 .header {
     display: flex;
-    justify-content: center;
 }
 
-.list {
-    margin: 0rem;
-    display: flex;
-    gap: 2rem;
+.left_list {
     list-style-type: none;
 }
 
-.list a {
-    text-decoration: none;
+.right_list {
+    width: 100%;
+    align-self: center;
+}
+
+.right_list ul {
+    list-style-type: none;
+}
+
+.right_list a {
     color: var(--color-primary-400);
 }
 
-.list a:hover,
-.list a.active {
+.right_list a:hover,
+.right_list a.active {
     color: var(--color-primary-800);
     text-decoration: none;
     color: rgb(34, 34, 209);

@@ -1,3 +1,22 @@
-h1{
+.main_about_section {
+    background-color: purple;
+    display: block;
+    color: aliceblue;
+}
+
+.about_title {
+    padding: 5px 0px 5px 0px;
+    display: flex;
+    background-color: rgba(255, 153, 0, 0.993);
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    padding: 0% 20vh 0% 30vh;
     text-align: center;
 }

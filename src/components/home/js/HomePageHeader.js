@@ -1,36 +1,25 @@
+import MainNavigation from "../../navigation/js/MainNavigation";
+
 import classes from "../css/HomePageHeader.module.css";
 
 const HomePageHeader = () => {
   return (
     <header className={classes.header}>
-      <nav>
-        <ul className={classes.list}>
+      <ul className={classes.left_list}>
+        <li>
+          <img
+            src="https://onmyowntechnology.com/images/omotec_logo.png"
+            alt="OMOTEC Logo"
+          ></img>
+        </li>
+      </ul>
+      <div className={classes.right_list}>
+        <ul>
           <li>
-            <img
-              src="https://onmyowntechnology.com/images/omotec_logo.png"
-              alt="OMOTEC Logo"
-            ></img>
-          </li>
-          <li>
-            <img
-              src="https://onmyowntechnology.com/images/omotec_logo.png"
-              alt="OMOTEC Logo"
-            ></img>
-          </li>
-          <li>
-            <img
-              src="https://onmyowntechnology.com/images/omotec_logo.png"
-              alt="OMOTEC Logo"
-            ></img>
-          </li>
-          <li>
-            <img
-              src="https://onmyowntechnology.com/images/omotec_logo.png"
-              alt="OMOTEC Logo"
-            ></img>
+            <MainNavigation />
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
   );
 };
