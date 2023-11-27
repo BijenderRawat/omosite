@@ -1,8 +1,23 @@
 .about_subnavsection {
-    background-color: rgb(35, 35, 241);
+    display: block;
     color: white;
 }
 
-.about_subnavsection_social {}
+.about_subnavsection_social {
+    background-color: orange;
+}
 
-.subnav_list_1 {}
+.subnav_list1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.about_subnavsection_links {
+    background-color: rgb(35, 35, 241);
+}
+
+.subnav_list2 {
+    list-style-type: none;
+}

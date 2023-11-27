@@ -72,13 +72,19 @@ const AuthenticationForm = (props) => {
               onClick={props.onHideAuthentication}
             >
               Cancel
-            </Button>{" "}
+            </Button>
+            {""}
             <Link to={`?mode=${isLogin ? "new" : "login"}`}>
               {isLogin ? "Create a new user" : "Login"}
             </Link>
-            <Button variant="outline-success" type="submit">
+            <Button
+              variant="outline-primary"
+              type="submit"
+              classes={classes.submit_button}
+            >
               Submit
-            </Button>{" "}
+            </Button>
+            {""}
           </div>
         </Form>
       </div>

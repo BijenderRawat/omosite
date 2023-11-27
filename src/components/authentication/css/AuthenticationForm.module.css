@@ -20,6 +20,7 @@
 .form label,
 .form input {
     width: 60%;
+    text-align: center;
 }
 
 .form input,
@@ -36,8 +37,8 @@
 
 .actions a {
     min-width: 10rem;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid purple;
+    color: purple;
     border-radius: 6px;
     padding: 0.38rem 0rem 0.38rem 0rem;
     text-decoration: none;
