@@ -4,7 +4,11 @@
 }
 
 .about_subnavsection_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: orange;
+    padding-top: 0.25rem;
 }
 
 .subnav_list1 {

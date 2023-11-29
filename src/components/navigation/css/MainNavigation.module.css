@@ -1,25 +1,22 @@
-.header {
+.mainnav_header {
     max-width: 60rem;
     min-width: 60rem;
     margin: auto;
 }
 
-.list {
+.mainnav_list {
     width: 60rem;
     display: flex;
     justify-content: flex-end;
     gap: 3rem;
     height: 3rem;
-    list-style-type: none;
 }
 
-.list a {
+.mainnav_list a {
     text-decoration: none;
-    font-weight: bold;
 }
 
-.list a:hover,
-.list a:active {
-    color: purple;
-    font-size: x-large;
+.mainnav_list a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
 }

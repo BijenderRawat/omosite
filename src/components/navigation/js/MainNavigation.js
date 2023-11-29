@@ -4,9 +4,9 @@ import classes from "../css/MainNavigation.module.css";
 
 const MainNavigation = () => {
   return (
-    <header className={classes.header}>
+    <header className={classes.mainnav_header}>
       <nav>
-        <ul className={classes.list}>
+        <ul className={classes.mainnav_list}>
           <li>
             <Link to="/home">Home</Link>
           </li>
