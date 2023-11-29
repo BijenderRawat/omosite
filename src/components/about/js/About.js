@@ -2,40 +2,53 @@ import classes from "../css/About.module.css";
 
 const About = () => {
   return (
-    <section className={classes.main_about_section}>
-      <span className={classes.about_title}>KNOW US</span>
-      <p className={classes.about_content}>
-        On My Own Technology® (OMOTEC®) is a dynamic Innovation and Research Lab
-        that brings STEAM learning to students of all age groups. We offer a
-        wide range of stimulating, educational, STEAM & Robotics programs
-        integrating Mechanical/ Electronics/ Programming / Design &
-        Construction/ Research & Innovation including Product Design &
-        Development for young minds ranging from Pre-primary to 12th grade
-        (K-12) and to the students from graduate schools and engineering
-        colleges. Our curriculum is based on the idea of seamlessly integrating
-        Science, Technology, Engineering, Art and Maths into learning based on
-        real-world applications. Our classes are a mix of fun and education
-        designed to spark creativity and prepare children for a
-        technology-driven future. We employ a range of tutors and mentors from
-        renowned engineering colleges and Universities. All our tutors and
-        mentors are specialists in their subjects. We offer quarterly and yearly
-        programs with wide range of STEAM projects mapped to the curriculum
-        through Open Source Platforms, Lego Robotics, AR - VR Education, Drone
-        Making, Arduino, Rasberry Pi, Programming Languages like Java, Python,
-        IoT, Artificial Intelligence & Machine Learning which enables students
-        to participate in International Competitions like IRIS, Robo Soccer,
-        Making & Gaming, Robo RACE, Formula 1 (F1) Training, The FIRST Tech
-        Challenge (FTC), FIRST LEGO League (FLL), World Robot Olympiad™ (WRO)
-        and many more. OMOTEC® has been recognised with 2 patents and a couple
-        of published Research Papers which are the backbone of path-breaking
-        innovation work being done with Students for creating products that
-        shall solve problems of today and tomorrow. With 6 Innovation Labs,
-        training 5000 students on a monthly basis, OMOTEC has the requisite
-        skill sets, educational tools, structured curriculum and intellectual
-        capital to deliver the learning objectives which are at par with global
-        benchmarks.
-      </p>
-    </section>
+    <div className={classes.main_about_section}>
+      <span className={classes.about_title}>ABOUT</span>
+      <span className={classes.about_maincontent}>
+        On My Own Technology® (OMOTEC®) is an innovative and dynamic STEM,
+        Research & Innovation Lab dedicated to bringing STREAM learning to
+        students aged 5 to 18+ years | Primary to 12th Grade (K-12), students in
+        schools and graduates. Our STEM Labs are in Mumbai, Pune and Delhi, with
+        7 branches nationwide. We offer educational programs, both online &
+        offline, such as Lego Robotics, Mechanics, Electronics, 3D Design
+        Thinking & Printing, AI-ML, IOT & Cybersecurity, Coding & Data Analysis,
+        and Research and Innovation for young minds to spark creativity and
+        prepare children for a technology-led future. OMOTOOL kits are an add-on
+        to inspire the hands-on learning approach by providing 150+ components
+        and 100+ projects that can be created and applied to real-life
+        problem-solving situations. Our team consists of educators who graduated
+        from top universities and are passionate and specialised in their
+        subjects. As we progress with our aim to make STEM education for all and
+        encourage skill-based learning abiding a technology-driven future, We
+        offer programs with rich content of 1200+ hours, train 22,000+ students
+        monthly in 40+ schools and support NGO schools as part of community
+        outreach. Our curriculum is mapped to national and international schools
+        with a massive inventory of tools & equipment, content & resources. We
+        are also one of the largest STEM educator providers. We have built trust
+        in the minds and hearts of 1,00,000+ students and their parents. We
+        continue to walk the extra mile with our 24hr one-on-one customer
+        support and reach new heights through national and international
+        competition participation.
+      </span>
+      <span className={classes.main_about_list}>
+        <p>OMOTEC at Glance</p>
+        <ul>
+          <li>7+ centres with a global presence</li>
+          <li>1,00,000+ students trained</li>
+          <li>40+ schools</li>
+          <li>22,000+ students monthly trained in schools</li>
+          <li>1200+ hours of structured curriculum</li>
+          <li>100+ Published Research Papers</li>
+          <li>4 patents (1 granted and 3 filed)</li>
+          <li>
+            90+ National and International competition awards (First Tech
+            Challenge (FTC), First Lego League (FLL), World Robotics Olympiad
+            (WRO), Codeavour & Hackathons, BIEA, IRIS, Microsoft Imagine Cup,
+            Google code to learn and many more)
+          </li>
+        </ul>
+      </span>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import classes from "../css/HomePageHeader.module.css";
 
 const HomePageHeader = () => {
   return (
-    <header className={classes.header}>
+    <div className={classes.header}>
       <ul className={classes.left_list}>
         <li>
           <img
@@ -20,7 +20,7 @@ const HomePageHeader = () => {
           </li>
         </ul>
       </div>
-    </header>
+    </div>
   );
 };
 
