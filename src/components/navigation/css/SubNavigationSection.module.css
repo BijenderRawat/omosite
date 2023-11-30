@@ -1,13 +1,15 @@
 .about_subnavsection {
     display: block;
     color: white;
+    position: relative;
+    width: 100%;
 }
 
 .about_subnavsection_social {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: #bdbdbd;
     padding-top: 0.25rem;
 }
 
@@ -19,9 +21,10 @@
 }
 
 .about_subnavsection_links {
-    background-color: rgb(35, 35, 241);
+    background-color: black
 }
 
 .subnav_list2 {
     list-style-type: none;
+    margin-bottom: 0;
 }

@@ -1,4 +1,5 @@
 .main_about_section {
+    font-size: large;
     display: block;
     color: aliceblue;
     text-align: center;
@@ -7,7 +8,7 @@
 .about_title {
     padding: 5px 0px 5px 0px;
     display: flex;
-    background-color: rgba(255, 153, 0, 0.993);
+    background-color: #ff6700;
     justify-content: center;
     font-size: xx-large;
     font-weight: bold;
@@ -17,11 +18,21 @@
     display: flex;
     align-items: center;
     min-height: 30vh;
-    padding: 0 30vh 0 30vh;
-    background-color: purple;
+    padding: 5vh 30vh 5vh 30vh;
+    background-color: #555555;
 }
 
 .main_about_list {
     display: block;
-    background-color: blue ;
+    background-color: #333333;
+    min-height: 35vh;
+}
+
+.main_about_list p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.main_about_list ul{
+    margin: 0vh;
 }
