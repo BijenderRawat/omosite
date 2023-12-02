@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 
 import { Button } from "react-bootstrap";
 
-import { Form, Link, useSearchParams } from "react-router-dom";
+import { Form } from "react-router-dom";
 
 import classes from "../css/AuthenticationForm.module.css";
 import AuthenticationModal from "../../modal/js/AuthenticationModal";
@@ -30,8 +30,6 @@ const AuthenticationForm = (props) => {
     setEnteredID("");
     setEnteredPassword("");
   };
-  const [searchParams] = useSearchParams();
-  const isLogin = searchParams.get("mode") === "login";
 
   return (
     <AuthenticationModal onHideAuthentication={props.onHideAuthentication}>
@@ -41,13 +39,13 @@ const AuthenticationForm = (props) => {
           className={classes.form}
           onSubmit={formSubmitHandler}
         >
-          <h1>{isLogin ? "Log in" : "Create a new user"}</h1>
+          <h1>Log In</h1>
           <p>
-            <label htmlFor="email">OMOTEC ID</label>
+            <label htmlFor="email">Email ID</label>
             <input
               id="email"
               type="string"
-              name="omotecid"
+              name="email"
               onChange={idInputChangeHandler}
               ref={idRef}
               value={enteredID}
@@ -74,9 +72,6 @@ const AuthenticationForm = (props) => {
               Cancel
             </Button>
             {""}
-            <Link to={`?mode=${isLogin ? "new" : "login"}`}>
-              {isLogin ? "Create a new user" : "Login"}
-            </Link>
             <Button
               variant="outline-primary"
               type="submit"

@@ -26,27 +26,27 @@ const Careers = () => {
         <div className={classes.left_accordion_card}>
           <div className={classes.left_accordion_card_header}>
             <h5 className={classes.mb_0}>
-              <Link to="">Marketing Calling</Link>
+              <button>Marketing Calling</button>
             </h5>
           </div>
           <div className={classes.left_accordion_card_header}>
             <h5 className={classes.mb_0}>
-              <Link to="">Head Of Sales</Link>
+              <button to="">Head Of Sales</button>
             </h5>
           </div>
           <div className={classes.left_accordion_card_header}>
             <h5 className={classes.mb_0}>
-              <Link to="">Content Writer</Link>
+              <button to="">Content Writer</button>
             </h5>
           </div>
           <div className={classes.left_accordion_card_header}>
             <h5 className={classes.mb_0}>
-              <Link to="">Research Associate</Link>
+              <button to="">Research Associate</button>
             </h5>
           </div>
           <div className={classes.left_accordion_card_header}>
             <h5 className={classes.mb_0}>
-              <Link to="">Marketing Manager</Link>
+              <button to="">Marketing Manager</button>
             </h5>
           </div>
         </div>

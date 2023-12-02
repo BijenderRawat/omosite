@@ -29,16 +29,23 @@
     justify-content: center;
     width: 100%;
     min-height: fit-content;
-    background-color: #777777;
+    background-color: #ff6700;
 }
 
 .left_accordion_card_header {
     display: flex;
+    min-height: 8vh;
+    align-items: center;
     justify-content: center;
 }
 
-.mb_0 a:hover,
-.mb_0 a:active {
+.mb_0 button {
+    background-color: transparent;
+    border: none;
+    color: black;
+}
+
+.mb_0 button:hover {
     color: azure;
     font-size: larger;
 }

@@ -14,7 +14,7 @@ const MainNavigation = () => {
             <Link to="about">About</Link>
           </li>
           <li>
-            <Link to="news">News</Link>
+            <Link to="news">Events</Link>
           </li>
           <li>
             <Link to="announcement">Announcement</Link>

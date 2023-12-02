@@ -21,10 +21,18 @@
 }
 
 .about_subnavsection_links {
-    background-color: black
+    background-color: black;
 }
 
 .subnav_list2 {
+    display: flex;
     list-style-type: none;
-    margin-bottom: 0;
+    justify-content: space-evenly;
 }
+
+.subnav_list2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.subnav_list2 a:hover {}
