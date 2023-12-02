@@ -13,3 +13,15 @@
     justify-content: space-evenly;
     list-style: none;
 }
+
+.list a {
+    min-width: 7rem;
+    border: 1px solid rgb(28, 95, 194);
+    color: white;
+    border-radius: 6px;
+    margin-right: 1rem;
+    text-align: center;
+    background-color: rgb(28, 95, 194);
+    padding: 0.32rem 0rem 0.32rem 0rem;
+    text-decoration: none;
+}

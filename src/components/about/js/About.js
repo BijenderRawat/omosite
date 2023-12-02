@@ -33,13 +33,13 @@ const About = () => {
       <span className={classes.main_about_list}>
         <p>OMOTEC at Glance</p>
         <ul>
-          <li>40+ schools</li>
-          <li>100K+ students trained</li>
-          <li>100+ Published Research Papers</li>
-          <li>4 patents (1 granted and 3 filed)</li>
+          <li>60+ schools</li>
+          <li>1,50,000+ students trained</li>
+          <li>175+ Published Research Papers</li>
+          <li>6 patents (2 granted and 4 applied)</li>
           <li>7+ centres with a global presence</li>
-          <li>1.2K+ hours of structured curriculum</li>
-          <li>22K+ students monthly trained in schools</li>
+          <li>1,200+ hours of structured curriculum</li>
+          <li>22,000+ students monthly trained in schools</li>
           <li>
             90+ National and International competition awards (First Tech
             Challenge (FTC), First Lego League (FLL), World Robotics Olympiad
