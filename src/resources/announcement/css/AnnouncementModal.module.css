@@ -1,0 +1,52 @@
+.announcement_mainoverlay {
+    width: 80%;
+    align-self: center;
+    min-height: 15vh;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+}
+
+.announcement_leftoverlay {
+    width: 20%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: red;
+}
+
+.announcement_leftoverlay p {
+    color: white;
+    /* margin: 0; */
+}
+
+.announcement_rightoverlay {
+    display: flex;
+    width: 20%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    flex-direction: column;
+    background-color: red;
+}
+
+.announcement_eventname h5 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-weight: bold;
+}
+
+.announcement_location {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.announcement_date {
+    display: flex;
+    gap: 20%;
+}
+
+.announcement_startdate,
+.announcement_enddate {
+    display: flex;
+    gap: 1rem;
+}

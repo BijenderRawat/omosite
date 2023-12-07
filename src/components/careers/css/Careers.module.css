@@ -41,13 +41,13 @@
     justify-content: center;
 }
 
-.mb_0 button {
+.mb_0 a {
     background-color: transparent;
     border: none;
-    color: black;
+    color: white;
+    text-decoration: none;
 }
 
-.mb_0 button:hover {
-    color: azure;
+.mb_0 a:hover {
     font-size: larger;
 }

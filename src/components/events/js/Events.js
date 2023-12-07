@@ -4,7 +4,6 @@ import classes from "../css/Events.module.css";
 
 const Events = () => {
   const upcommingcolorcode = "#f37022";
-  const ongoingcolorcode = "green";
   const completedcolorcode = "#005DA3";
 
   return (

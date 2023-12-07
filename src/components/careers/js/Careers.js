@@ -26,27 +26,22 @@ const Careers = () => {
         <div className={classes.left_accordion_card}>
           <div className={classes.left_accordion_card_header}>
             <h5 className={classes.mb_0}>
-              <button>Marketing Calling</button>
+              <Link
+                to="https://www.linkedin.com/jobs/view/3767986049"
+                target="blank"
+              >
+                Branch Manager
+              </Link>
             </h5>
           </div>
           <div className={classes.left_accordion_card_header}>
             <h5 className={classes.mb_0}>
-              <button to="">Head Of Sales</button>
-            </h5>
-          </div>
-          <div className={classes.left_accordion_card_header}>
-            <h5 className={classes.mb_0}>
-              <button to="">Content Writer</button>
-            </h5>
-          </div>
-          <div className={classes.left_accordion_card_header}>
-            <h5 className={classes.mb_0}>
-              <button to="">Research Associate</button>
-            </h5>
-          </div>
-          <div className={classes.left_accordion_card_header}>
-            <h5 className={classes.mb_0}>
-              <button to="">Marketing Manager</button>
+              <Link
+                to="https://www.linkedin.com/jobs/view/3765789890"
+                target="blank"
+              >
+                Robotics Instructor
+              </Link>
             </h5>
           </div>
         </div>
