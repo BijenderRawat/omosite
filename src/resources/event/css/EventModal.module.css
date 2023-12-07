@@ -1,0 +1,24 @@
+.eventmodal_mainoverlay {
+    width: 80%;
+    align-self: center;
+    min-height: 15vh;
+    background-color: red;
+    display: flex;
+    border-radius: 15px;
+}
+
+.eventmodal_leftoverlay {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    background-color: blue;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.eventmodal_leftoverlay p {
+    color: white;
+    margin: 0;
+}

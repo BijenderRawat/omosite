@@ -86,7 +86,10 @@ const SubNavigation = () => {
       <section className={classes.about_subnavsection_links}>
         <ul className={classes.subnav_list2}>
           <li>
-            <Link>
+            <Link
+              to="https://www.google.com/maps/place/OMOTEC+-+Delhi/@28.5367332,77.2109328,15z/data=!4m6!3m5!1s0x390ce3b36dd3a66d:0xecb75fd72179cbf1!8m2!3d28.5367332!4d77.2109328!16s%2Fg%2F11v9bvc5md?entry=ttu"
+              target="blank"
+            >
               <img
                 src="https://www.freeiconspng.com/uploads/blue-location-icon-png-19.png"
                 height="20"
@@ -98,19 +101,22 @@ const SubNavigation = () => {
           <li>
             <Link
               to="https://www.google.co.in/maps/place/OMOTEC+-+Juhu/@19.1053006,72.8343765,17z/data=!4m6!3m5!1s0x3be7c9f7c9178887:0xeb55ed845d19750b!8m2!3d19.1052955!4d72.8365652!16s%2Fg%2F11hz19r0bh?hl=en&entry=ttu"
-              target="blacnk"
+              target="blank"
               alt="location juhu"
             >
               <img
                 src="https://www.freeiconspng.com/uploads/blue-location-icon-png-19.png"
                 height="20"
-                alt="location lal baug"
+                alt="location juhu"
               />
               Juhu
             </Link>
           </li>
           <li>
-            <Link>
+            <Link
+              to="https://www.google.com/maps/place/OMOTEC+-+Prabhadevi+(+Robotics,+Lego,+Electronics,+Mechanical,+Coding+%26+Electrical+Engineering+Workshops+%26+Classes+)/@19.0185961,72.8314846,15z/data=!4m6!3m5!1s0x3be7cfe9258f6a85:0x952a9835314e1740!8m2!3d19.0185961!4d72.8314846!16s%2Fg%2F11fr112p9q?entry=ttu"
+              target="blank"
+            >
               <img
                 src="https://www.freeiconspng.com/uploads/blue-location-icon-png-19.png"
                 height="20"
@@ -133,7 +139,10 @@ const SubNavigation = () => {
             </Link>
           </li>
           <li>
-            <Link>
+            <Link
+              to="https://www.google.com/maps/place/OMOTEC+-+Powai+(+Robotics,+Lego,+Electronics,+Mechanical,+Coding+%26+Electrical+Engineering+Workshops+%26+Classes+)/@19.1186218,72.905452,15z/data=!4m6!3m5!1s0x3be7c748296dad55:0x3d8a80d1578501d5!8m2!3d19.1186218!4d72.905452!16s%2Fg%2F11rvct24fj?entry=ttu"
+              target="blank"
+            >
               <img
                 src="https://www.freeiconspng.com/uploads/blue-location-icon-png-19.png"
                 height="20"

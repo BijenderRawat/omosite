@@ -67,13 +67,6 @@ const AuthenticationForm = (props) => {
           <div className={classes.actions}>
             <Button
               variant="outline-primary"
-              onClick={props.onHideAuthentication}
-            >
-              Cancel
-            </Button>
-            {""}
-            <Button
-              variant="outline-primary"
               type="submit"
               classes={classes.submit_button}
             >

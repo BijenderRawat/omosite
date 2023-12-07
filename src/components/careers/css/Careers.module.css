@@ -1,6 +1,7 @@
 .main_career_section {
     display: block;
     color: aliceblue;
+    min-height: 100vh;
 }
 
 .career_title {
@@ -22,6 +23,7 @@
     margin: 0;
     padding-top: 1.7rem;
     padding-bottom: 1.7rem;
+    font-size: larger;
 }
 
 .left_accordion_card {

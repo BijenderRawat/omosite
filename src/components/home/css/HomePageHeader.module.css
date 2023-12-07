@@ -11,8 +11,8 @@
     margin-top: 1rem;
 }
 
-.list_omotec_logo a:hover {
-    z-index: inherit;
+.list_omotec_logo img:hover {
+    border-radius: 10%;
 }
 
 .right_list {
