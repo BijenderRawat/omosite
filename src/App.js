@@ -6,7 +6,7 @@ import IntroPage from "./components/intro/js/IntroPage";
 import HomePage from "./components/home/js/HomePage";
 
 import About from "./components/about/js/About";
-import News from "./components/events/js/Events";
+import Events from "./components/events/js/Events";
 import Announcement from "./components/announcement/js/Announcement";
 import Careers from "./components/careers/js/Careers";
 import ErrorPage from "./components/error/js/ErrorPage";
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <HomePageBody /> },
       { path: "about", element: <About /> },
-      { path: "news", element: <News /> },
+      { path: "events", element: <Events /> },
       { path: "announcement", element: <Announcement /> },
       { path: "careers", element: <Careers /> },
     ],
