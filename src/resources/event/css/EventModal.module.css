@@ -1,10 +1,22 @@
 .eventmodal_mainoverlay {
     width: 80%;
-    align-self: center;
     min-height: 15vh;
+    align-self: center;
     background-color: white;
     display: flex;
     border-radius: 15px;
+    animation-name: transform_modal;
+    animation-duration: 1s;
+}
+
+@keyframes transform_modal {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
 }
 
 .eventmodal_leftoverlay {
