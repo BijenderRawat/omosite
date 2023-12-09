@@ -1,0 +1,57 @@
+.collateralmodal_mainoverlay {
+    height: 7vh;
+    width: 18rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    animation-name: transform_modal;
+    animation-duration: 1s;
+}
+
+.collateralmodal_leftoverlay,
+.collateralmodal_rightoverlay {
+    display: flex;
+    justify-content: center;
+}
+
+.collateralmodal_leftoverlay {
+    width: 20%;
+}
+
+.collateralmodal_rightoverlay {
+    justify-content: left;
+}
+
+.collateralmodal_collateralname h5 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-weight: bold;
+}
+
+.collateralmodal_collateralname a,
+.collateralmodal_leftoverlay img {
+    animation-name: transform_modal;
+    animation-duration: 1s;
+}
+
+@keyframes transform_modal {
+    0% {
+        width: 0;
+        height: 0;
+        color: white;
+    }
+
+    50% {
+        height: 0;
+        width: 18rem;
+        color: white;
+    }
+
+    100% {
+        color: white;
+        height: 7vh;
+    }
+}
