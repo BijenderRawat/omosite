@@ -17,10 +17,6 @@ const HomePageHeader = () => {
           </Link>
         </li>
       </ul>
-      <div className={classes.hashtag_section}>
-        <div className={classes.hashtag_section_space}></div>
-        <p>#SharingIsCarying</p>
-      </div>
       <div className={classes.right_list}>
         <ul>
           <li>

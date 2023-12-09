@@ -46,6 +46,10 @@ const Careers = () => {
           </div>
         </div>
       </div>
+      <div className={classes.hashtag_section}>
+        <div className={classes.hashtag_section_space}></div>
+        <p>#SharingIsCaring</p>
+      </div>
     </section>
   );
 };

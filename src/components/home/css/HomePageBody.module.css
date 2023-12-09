@@ -1,5 +1,6 @@
 .home_main_section {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery_slide {

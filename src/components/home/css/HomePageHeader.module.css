@@ -28,18 +28,6 @@
     border-radius: 10%;
 }
 
-.hashtag_section {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.hashtag_section_space {
-    width: 100%;
-    height: 79%;
-}
-
 .hashtag_section p {
     margin-bottom: 0;
     font-weight: bold;

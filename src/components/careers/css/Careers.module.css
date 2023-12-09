@@ -51,3 +51,15 @@
 .mb_0 a:hover {
     font-size: larger;
 }
+
+.hashtag_section {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: red;
+}
+
+.hashtag_section_space {
+    width: 100%;
+    height: 79%;
+}
