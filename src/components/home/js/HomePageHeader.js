@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import MainNavigation from "../../navigation/js/MainNavigation";
+import omotec_logo from "../../../resources/images/omotec_logo.png";
 
 import classes from "../css/HomePageHeader.module.css";
 
@@ -10,10 +11,7 @@ const HomePageHeader = () => {
       <ul className={classes.left_list}>
         <li className={classes.list_omotec_logo}>
           <Link to="/home">
-            <img
-              src="https://onmyowntechnology.com/images/omotec_logo.png"
-              alt="OMOTEC Logo"
-            />
+            <img src={omotec_logo} alt="OMOTEC Logo" />
           </Link>
         </li>
       </ul>

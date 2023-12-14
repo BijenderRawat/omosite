@@ -8,7 +8,7 @@ const CollateralModal = (props) => {
         className={classes.collateralmodal_leftoverlay}
         style={{ backgroundColor: props.color }}
       >
-        <img src={props.subject_img} height="20" />
+        <img src={props.subject_img} alt={props.alt} height="20" />
       </div>
       <div className={classes.collateralmodal_rightoverlay}>
         <div className={classes.collateralmodal_collateralname}>

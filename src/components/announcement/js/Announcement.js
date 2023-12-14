@@ -1,4 +1,4 @@
-import AnnouncementModal from "../../../resources/announcement/js/AnnouncementModal";
+import AnnouncementModal from "../../../modal/js/AnnouncementModal";
 import classes from "../css/Announcement.module.css";
 
 const Announcement = () => {

@@ -2,9 +2,9 @@ import {
   collatoralLeftData,
   collatoralMiddleData,
   collatoralRightData,
-} from "../../../resources/collateral/js/CollatoralData";
+} from "../../../resources/collateral/CollatoralData";
 
-import CollateralModal from "../../../resources/collateral/js/CollateralModal";
+import CollateralModal from "../../../modal/js/CollateralModal";
 import classes from "../css/Collateral.module.css";
 
 const Collateral = () => {
