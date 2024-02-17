@@ -1,11 +1,8 @@
 .mainnav_header {
-    max-width: 60rem;
-    min-width: 60rem;
-    margin: auto;
+    margin-right: 8%;
 }
 
 .mainnav_list {
-    width: 60rem;
     display: flex;
     justify-content: flex-end;
     gap: 3rem;

@@ -1,9 +1,10 @@
 .header {
     display: flex;
     background-color: #bdbdbd;
-    animation-name: transform;
+    width: 100%;
+    /* animation-name: transform;
     animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; */
 }
 
 @keyframes transform {
@@ -36,8 +37,8 @@
 }
 
 .right_list {
-    width: 100%;
     align-self: center;
+    margin-left: 28%;
 }
 
 .right_list ul {

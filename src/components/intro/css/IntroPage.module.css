@@ -1,6 +1,6 @@
 .maindiv {
     background-image: url("../../../resources/images/image.jpg");
-    height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
+    height: 100vh;
 }

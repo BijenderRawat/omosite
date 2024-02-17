@@ -1,8 +1,27 @@
+/* @media only screen and (max-width: 400px) {
+    .main_about_section {
+        font-size: large;
+        display: block;
+        color: aliceblue;
+        text-align: center;
+        width: max-content
+    }
+
+    .about_maincontent {
+        display: flex;
+        align-items: center;
+        min-height: 30vh;
+        background-color: #555555;
+    }
+} */
+
 .main_about_section {
     font-size: large;
+    height: fit-content;
     display: block;
     color: aliceblue;
     text-align: center;
+    width: fit-content;
 }
 
 .about_title {
